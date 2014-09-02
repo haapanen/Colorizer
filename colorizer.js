@@ -72,7 +72,6 @@ var Colorizer = {};
 
     for (i = 0, len = unescaped.length; i < len; i++) {
       if (unescaped[i] === '^' && unescaped[i + 1] !== '^') {
-        console.log("next color: " + unescaped[i + 1]);
         nextColor = unescaped[i + 1];
         i++;
         continue;
